@@ -1,0 +1,12 @@
+#nts and bolts sort june 10
+b=list(map(str,input().split()))
+c=list(map(str,input().split()))
+l=[]
+a={'!','#','$','%','&','*','?','@','^'}
+for i in b:
+  for i in c:
+    l.append(i)
+l=set(l)
+l1=sorted(l)
+for i in l1:
+  print(i,end="")
